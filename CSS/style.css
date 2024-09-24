@@ -25,13 +25,13 @@ body{
 }
 
 header{
-    background-color: var(--cor-04);
+    background-color: var(--cor-05);
     color: var(--cor-02);
     
     position: fixed;
     width: 100%;
-    /* z-index: 100;
-    top: 0; */
+    z-index: 100;
+    top: 0;
     padding: 1.2rem 5rem;
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ header{
     font-weight: 700;
 }
 
-span{
+header span{
     color: var(--cor-principal);
 }
 
@@ -59,7 +59,6 @@ nav a{
     text-decoration: none;
     color: inherit;
     font-weight: 700;
-    border: solid 1px yellow; /* TESTE */
     padding: 0.5rem 1rem;
     transition: 0.5s;
 
@@ -69,12 +68,67 @@ a:hover{
     color: var(--cor-principal);
 }
 
+/* ==============noticias============= */
+main{
+    margin: 5rem auto;
+}
+
+article{
+    background-color: var(--cor-03);
+    height: 16rem;
+    margin: 0 5rem;
+    display: grid;
+    grid-template-columns: 16rem auto;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+article p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+article:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    /*          X   Y   desfoque    espessura   cor */
+    box-shadow: 0   0   0.5rem      0.1rem      var(--cor-03);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foto {
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.foto img {
+    height: 100%;
+}
+
+.leiamais{
+    font-weight: 700;
+    color: var(--cor-04);
+    text-align: right;
+    padding: 1rem;
+}
+
+.texto{
+    max-height: 8rem;
+    overflow: hidden;
+}
 
 
 
 
 
-
+/* ==============rodape============= */
 footer{
     background-color: var(--cor-05);
     color: var(--cor-02);
@@ -83,4 +137,5 @@ footer{
     bottom: 0;
     position: fixed;
     width: 100%;
+    opacity: 0.6;
 }
