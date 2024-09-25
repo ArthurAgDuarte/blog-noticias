@@ -76,11 +76,11 @@ main{
 article{
     background-color: var(--cor-03);
     height: 16rem;
-    margin: 0 5rem;
+    margin: 0 5rem 1rem;
     display: grid;
     grid-template-columns: 16rem auto;
     padding: 1rem;
-    border-radius: 0.6rem;
+    border-radius: 0.625rem;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -106,10 +106,15 @@ article:hover {
 .foto {
     overflow: hidden;
     margin-right: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .foto img {
     height: 100%;
+
 }
 
 .leiamais{
