@@ -185,7 +185,6 @@ footer{
     }
 
     header{
-        background-color: #ff69b4;
         padding: 1rem 2rem;
     }
 }
@@ -217,7 +216,7 @@ footer{
     }
 
     header{
-        background-color: #100c87;
+        
         padding: 1rem 2rem;
     }
 }
@@ -239,7 +238,59 @@ footer{
     
 
     header{
-        background-color: #ef740f;
+
         padding: 1rem 3rem;
     }
+}
+
+/* Notebook */
+@media(min-width: 992px){
+    header{
+    padding: 1.2rem 5rem;
+    
+    }
+    .menu-responsivo{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+    
+    article{
+        height: 16rem;
+        margin: 0 5rem 1rem;
+        display: grid;
+        grid-template-columns: 16rem auto
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .foto {
+        overflow: hidden;
+        margin-right: 1rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    
+    .foto img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    
+    
+
+}
+
+/* desktop */
+@media(min-width: 1200px){
+    
+    
 }
