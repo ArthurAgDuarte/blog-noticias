@@ -72,6 +72,10 @@ a:hover{
     display: none;
 }
 
+.menu-responsivo i{
+    font-size: 3rem;
+}
+
 
 /* ==============noticias============= */
 main{
@@ -165,6 +169,7 @@ footer{
         display: block;
     }
     
+
     article{
     height: auto;
     margin: 1rem;
@@ -181,5 +186,60 @@ footer{
 
     header{
         background-color: #ff69b4;
+        padding: 1rem 2rem;
+    }
+}
+
+/* SM Small - celular paisagem(landscape) */
+@media(min-width: 576px){
+
+    .menu{
+        display: none;
+    }
+
+    .menu-responsivo{
+        display: block;
+    }
+    
+ 
+    article{
+    height: auto;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .foto img {
+        width: 100%;    
+    
+    }
+    .foto {
+        margin-right: 0;
+    }
+
+    header{
+        background-color: #100c87;
+        padding: 1rem 2rem;
+    }
+}
+/* MD Tablet */
+@media(min-width: 768px){
+
+    .menu{
+        display: none;
+    }
+
+    .menu-responsivo{
+        display: block;
+    }
+    
+ 
+    article{
+        margin: 3rem;
+    }
+    
+
+    header{
+        background-color: #ef740f;
+        padding: 1rem 3rem;
     }
 }
