@@ -1,135 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Blog de noticias">
-    <meta name="keywords" content="blog, noticias, filmes, politica, esporte">
-    <meta name="author" content="Arthur Duarte">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Blog de noticias" />
+    <meta name="keywords" content="blog, noticias, filmes, politica, esporte" />
+    <meta name="author" content="Arthur Duarte" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buenas News</title>
     <!-- icone da pagina -->
-     <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
-     <!-- box icons -->
-     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-     <!-- css externo -->
-     <link rel="stylesheet" href="./CSS/style.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- css externo -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="#"></a>
-            <span>Buenas</span> News
+      <div class="logo">
+        <a href="#"></a>
+        <span>Buenas</span> News
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="">HOME</a>
+          </li>
+          <li><a href="">ESPORTES</a></li>
+          <li><a href="">FILMES</a></li>
+          <li><a href="">POLITICA</a></li>
+        </ul>
+      </nav>
+
+      <nav class="menu-responsivo">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-button">
+          <i class="bx bx-menu"></i>
+        </label>
+
+        <div class="menu-content">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ESPORTES</a></li>
+            <li><a href="">FILMES</a></li>
+            <li><a href="">POLITICA</a></li>
+          </ul>
         </div>
-
-
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="">HOME</a>
-                </li>
-                <li><a href="">ESPORTES</a></li>
-                <li><a href="">FILMES</a></li>
-                <li><a href="">POLITICA</a></li>
-            </ul>
-        </nav>
-
-        <nav class="menu-responsivo">
-            <i class='bx bx-menu'></i>
-        </nav>
+      </nav>
     </header>
 
-
     <main>
-        <!-- Noticia 0 -->
-         <article>
-            <div class="foto">
-                <img src="img/niners.png" alt="San Francisco 49ers sofrem virada milagrosa contra os Los Angeles Rams">
-            </div>
+      <!-- Noticia 0 -->
+      <article>
+        <div class="foto">
+          <img
+            src="img/niners.png"
+            alt="San Francisco 49ers sofrem virada milagrosa contra os Los Angeles Rams"
+          />
+        </div>
 
-            <div class="conteudo">
-                <span>
-                    <h3>San Francisco 49ers sofrem virada milagrosa contra os Los Angeles Rams</h3>
-                    <p class="texto">   
-                        O time de Brock Purdy liderou e dominou por boa parte do jogo, contudo, falhas defensivas, erro de um field goal, e constantes drops de recebedores impediram que eles matassem o jogo. Os Rams, liderados por Matthew Stafford, aproveitaram os erros do adversário e conseguiram uma virada de almanaque no último quarto, dando uma sobrevida ao sonho de ir aos playoffs para o time angelino.
-                    </p>
-                </span>
-                <p class="leiamais">
-                    leia mais >
-                </p>
-            </div>
+        <div class="conteudo">
+          <span>
+            <h3>
+              San Francisco 49ers sofrem virada milagrosa contra os Los Angeles
+              Rams
+            </h3>
+            <p class="texto">
+              O time de Brock Purdy liderou e dominou por boa parte do jogo,
+              contudo, falhas defensivas, erro de um field goal, e constantes
+              drops de recebedores impediram que eles matassem o jogo. Os Rams,
+              liderados por Matthew Stafford, aproveitaram os erros do
+              adversário e conseguiram uma virada de almanaque no último quarto,
+              dando uma sobrevida ao sonho de ir aos playoffs para o time
+              angelino.
+            </p>
+          </span>
+          <p class="leiamais">leia mais ></p>
+        </div>
+      </article>
+      <!-- Noticia 1 -->
+      <article>
+        <div class="foto">
+          <img
+            src="img/noticia-01.jpg"
+            alt="Israel e Hezbollah trocam ataques aéreos"
+          />
+        </div>
 
-         </article>
-        <!-- Noticia 1 -->
-         <article>
-            <div class="foto">
-                <img src="img/noticia-01.jpg" alt="Israel e Hezbollah trocam ataques aéreos">
-            </div>
+        <div class="conteudo">
+          <span>
+            <h3>Israel e Hezbollah trocam ataques aéreos</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              dignissimos porro numquam ea iste vitae, nam quo repellendus
+              ducimus incidunt ad architecto adipisci eveniet eligendi fugit
+              reprehenderit nemo inventore minima!
+            </p>
+          </span>
+          <p class="leiamais">leia mais ></p>
+        </div>
+      </article>
 
-            <div class="conteudo">
-                <span>
-                    <h3>Israel e Hezbollah trocam ataques aéreos</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos porro numquam ea iste vitae, nam quo repellendus ducimus incidunt ad architecto adipisci eveniet eligendi fugit reprehenderit nemo inventore minima!</p>
-                </span>
-                <p class="leiamais">
-                    leia mais >
-                </p>
-            </div>
+      <!-- Noticia 2 -->
+      <article>
+        <div class="foto">
+          <img
+            src="img/noticia-02.jpg"
+            alt="Eleições nos EUA: O que é voto facultativo e por que ele é adotado"
+          />
+        </div>
 
-         </article>
+        <div class="conteudo">
+          <span>
+            <h3>
+              Eleições nos EUA: O que é voto facultativo e por que ele é adotado
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              amet perferendis iure voluptatibus, ipsum minus distinctio
+              blanditiis temporibus. Quae quam corporis voluptatem ab minima
+              architecto dolore at molestiae cumque aliquam?
+            </p>
+          </span>
+          <p class="leiamais">leia mais ></p>
+        </div>
+      </article>
 
-         <!-- Noticia 2 -->
-         <article>
-            <div class="foto">
-                <img src="img/noticia-02.jpg" alt="Eleições nos EUA: O que é voto facultativo e por que ele é adotado">
-            </div>
+      <!-- Noticia 3 -->
+      <article>
+        <div class="foto">
+          <img
+            src="img/noticia-03.jpg"
+            alt="Capivara brasileira foge de zoológico na Inglaterra"
+          />
+        </div>
 
-            <div class="conteudo">
-                <span>
-                    <h3>Eleições nos EUA: O que é voto facultativo e por que ele é adotado</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis amet perferendis iure voluptatibus, ipsum minus distinctio blanditiis temporibus. Quae quam corporis voluptatem ab minima architecto dolore at molestiae cumque aliquam?</p>
-                </span>
-                <p class="leiamais">
-                    leia mais >
-                </p>
-            </div>
-        </article>
+        <div class="conteudo">
+          <span>
+            <h3>Capivara brasileira foge de zoológico na Inglaterra</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              accusantium odit, itaque tempore veritatis animi voluptatem nulla
+              quidem necessitatibus deleniti perferendis culpa laudantium.
+              Laudantium cupiditate, quas eius enim voluptate dicta?
+            </p>
+          </span>
+          <p class="leiamais">leia mais ></p>
+        </div>
+      </article>
 
-            <!-- Noticia 3 -->
-         <article>
-            <div class="foto">
-                <img src="img/noticia-03.jpg" alt="Capivara brasileira foge de zoológico na Inglaterra">
-            </div>
+      <!-- Notícia 4 -->
+      <article>
+        <div class="foto">
+          <img
+            src="./img/noticia-04.jpg"
+            alt="iOS 18 está liberado para todos os usuários"
+          />
+        </div>
 
-            <div class="conteudo">
-                <span>
-                    <h3>Capivara brasileira foge de zoológico na Inglaterra</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusantium odit, itaque tempore veritatis animi voluptatem nulla quidem necessitatibus deleniti perferendis culpa laudantium. Laudantium cupiditate, quas eius enim voluptate dicta?</p>
-                </span>
-                <p class="leiamais">
-                    leia mais >
-                </p>
-            </div>
+        <div class="conteudo">
+          <span>
+            <h3>iOS 18 está liberado para todos os usuários</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam,
+              maiores qui. Ut magnam laborum rerum accusamus, fuga, praesentium
+              sed iure iste beatae quos alias asperiores deserunt, explicabo
+              necessitatibus ratione in.
+            </p>
+          </span>
 
-         </article>
-
-         <!-- Notícia 4 -->
-        <article>
-            <div class="foto">
-                <img src="./img/noticia-04.jpg" alt="iOS 18 está liberado para todos os usuários">
-            </div>
-
-            <div class="conteudo">
-                <span>
-                    <h3>iOS 18 está liberado para todos os usuários</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, maiores qui. Ut magnam laborum rerum accusamus, fuga, praesentium sed iure iste beatae quos alias asperiores deserunt, explicabo necessitatibus ratione in.</p>
-                </span>
-
-                <p class="leia-mais">leia mais ></p>
-            </div>
-        </article>
+          <p class="leia-mais">leia mais ></p>
+        </div>
+      </article>
     </main>
-    
-    
-    <footer>Buenas News &copy; Nenhum direito reservados, todos titulares</footer>
-</body>
+
+    <footer>
+      Buenas News &copy; Nenhum direito reservados, todos titulares
+    </footer>
+  </body>
 </html>

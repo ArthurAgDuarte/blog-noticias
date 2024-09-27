@@ -4,4 +4,4 @@
 
 Blog de notícias usando tags semânticas do HTML e CSS.
 
-Update: menu hamburguer
+Update: Finalizado o menu hamburguer
